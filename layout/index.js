@@ -34,11 +34,11 @@ export default function LayoutJadwalSholat() {
   function seleksiButton() {
     const kota = document.getElementById("daerah").value
     loadData(kota).then(z => {
-      setTimeout(() => rmSelected(kota), 50)
+      setTimeout(() => rmSelected(kota), 30)
     })
   }
 
-  function rmSelected(kota) {
+  function rmSelected(kota = "31") {
     const selected = document.querySelectorAll("select#daerah option")
     selected.forEach((elements, key) => {
       elements?.removeAttribute("selected")
