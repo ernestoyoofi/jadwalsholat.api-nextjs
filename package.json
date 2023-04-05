@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ernestoyoofi/jadwalsholat.api": "^1.5.0",
+    "@ernestoyoofi/jadwalsholat.api": "^1.7.0",
     "axios": "^1.3.4",
     "cheerio": "^1.0.0-rc.12",
     "next": "13.2.4",
